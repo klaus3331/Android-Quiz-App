@@ -1,9 +1,5 @@
 # User Manual
 
-Version 2
-
-**Author**: Liangkai Hu
-
 ## Introduction
 
 This app was created to give users a place where they can collaborate with learning new vocabulary words. After a user is registered he/she may create vocabulary quizzes for other users to take or practice with quizzes created by other users. The user may also remove quizzes that he/she created and view various statistics for the quizzes including their latest score on a particular as well as their highest score and the first three users to achieve 100% on that quiz.
