@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.gatech.seclass.sdpvocabquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".edu.gatech.seclass.sdpvocabquiz.designclasses.QuizApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.RegisterStudentActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.REGISTERSTUDENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.PracticeQuizActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.PRACTICEQUESTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.RemoveQuizActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.REMOVEQUIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.MainMenuActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.MAINMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.QuizQuestionsActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.QUIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ViewStatisticsActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.VIEWSTATS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ScoresActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.SCORES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AddQuizActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.ADDQUIZ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AddQuizFormActivity">
+            <intent-filter>
+                <action android:name="edu.gatech.seclass.sdpvocabquiz.ADDQUIZFORM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
